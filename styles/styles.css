@@ -3,7 +3,7 @@ main {
     
 }
 
-nav a {
+nav  {
     color: white;
     padding: 10px;
     display: block;
@@ -30,7 +30,6 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
     padding: 1rem;
-    nav: ;
     background-color: #eee;
     color: #222;
     text-align: center;
