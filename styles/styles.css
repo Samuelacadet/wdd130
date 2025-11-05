@@ -3,7 +3,12 @@ main {
     
 }
 
-nav  {
+nav {
+    background-color: aquamarine;
+    padding: auto;
+}
+
+nav a {
     color: white;
     padding: 10px;
     display: block;
