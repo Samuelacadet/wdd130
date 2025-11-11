@@ -30,13 +30,14 @@ h1 {
 }
 
 main img {
-  width: 150px;
-  height: auto;
+  width: 100px;
+  height: 140px;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
   float: right;
   margin: 0 0 1rem 1rem;
+  
   
 }
 
@@ -49,9 +50,9 @@ aside {
 }
 
 aside h2 {
-  position: center;
-  top: 47px;
-  left: 150px;
+  position: absolute;
+  top: 25px;
+  left: 60px;
 }
 
 p  { 
@@ -59,13 +60,13 @@ p  {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #222;
-    text-align: center;
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
+  padding: 1rem;
+  background-color: #eee;
+  color: #222;
+  text-align: center;
     
 }
 
