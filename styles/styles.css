@@ -30,12 +30,13 @@ h1 {
 }
 
 main img {
-  width: 100px;
-  height: 140px;
+  float: right;
+  width: 130px;
+  height: 135px;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  float: right;
+  vertical-align: top;
   margin: 0 0 1rem 1rem;
   
   
