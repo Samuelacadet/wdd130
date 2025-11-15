@@ -133,12 +133,12 @@ p  {
 }
 
 nav {
-    background-color:   #055a05;
+    background-color:  white;
     padding: 1rem;
 }
 
 nav a {
-    color: #e9c46a;
+    color:#d4a017;
     padding: 1px;
     display: block;
 }
