@@ -70,6 +70,15 @@ h1, h2 {
     object-fit: cover;
   }
 
+.hero article img {
+  float: right;
+
+}
+
+.hero article {
+  position: absolute;
+}
+
 
 .hero .box {
   position: absolute;
