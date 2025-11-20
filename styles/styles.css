@@ -8,25 +8,38 @@ body {
     font-size: 16px;
 }
 
-main {
-    max-width: 840px;
-    
-}
 
 nav {
     background-color:  steelblue;
     padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.grid {
+  
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+
+}
+
 
 
 nav a {
     color: white;
-    padding: 10px;
+    padding: 0.rem;
     display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; 
 }
 
 h1 {
     color: steelblue;
+    border-bottom: 2px;
 
 }
 
@@ -78,10 +91,9 @@ aside img {
   height: auto;
 }
 
-footer {
-  margin-top: 15px;
-  border-top: 1px solid #000;
-  text-align: center;
+header, .grid, footer {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 /* class selectors */
