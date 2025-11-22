@@ -36,7 +36,6 @@ header img {
   
 
 body {
-  font-family: var(--body-font);
   color: var(--accent1-color);
 } 
 
@@ -57,7 +56,6 @@ main {
 
 
 h1, h2 {
-  font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
@@ -220,7 +218,7 @@ nav a {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
-  padding: 2rem auto;
+  padding: 2rem;
   width: 90%;
   max-width: 1200px;
   text-align: center;
