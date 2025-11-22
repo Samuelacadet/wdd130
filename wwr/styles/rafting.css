@@ -11,6 +11,10 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: flex;
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center;
+    padding: 1rem;
    
   }
 
@@ -115,6 +119,16 @@ h1, h2 {
   clear: both;
 }
 
+.hero h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  background: rgba(255,255,255,0.7);
+  color: var(--primary-color);
+  padding: 1rem 2rem;
+}
 
 
 h1 {
@@ -136,12 +150,18 @@ p  {
 nav {
     background-color: var(--accent1-color);
     padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    background-color: transparent; /* remove background */
+
 }
 
 nav a {
     color: var(--accent2-color);
     padding: 1px;
     display: block;
+    display: inline-block;
+    padding: 0.5rem 1rem;
 }
 
 
