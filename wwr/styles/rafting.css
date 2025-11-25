@@ -8,11 +8,11 @@
 
 
 header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    display: flex;
-    justify-content: space-between; /* logo left, nav right */
-    align-items: center;
     padding: 1rem 2rem;
    
   }
@@ -158,18 +158,20 @@ p  {
   margin: 1rem;
 }
 
-nav {
-    padding: 1rem;
-    display: flex;
+header nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
     gap: 2rem;
     background-color: transparent; /* remove background */
 
 }
 
-nav a {
-    color: var(--accent2-color);
-    display: inline-block;
-    padding: 0.5rem 1rem;
+header nav a {
+   text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    
 }
 
 
