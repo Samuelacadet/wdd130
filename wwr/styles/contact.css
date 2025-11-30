@@ -1,0 +1,169 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+
+header {
+  background-color: #d7c8f4;
+  padding: 1rem;
+  text-align: center;
+}
+
+header img {
+  width: 110px;
+  margin-bottom: 0.5rem;
+}
+
+nav.grid-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav.grid-container a {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+main h1, main p {
+text-align: center;
+}
+
+
+.radio-group {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.radio-group label {
+margin: 0;
+}
+
+
+.map-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.map iframe {
+  width: 420px;
+  height: 330px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+form {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-align: left;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+form label input[type="radio"],
+form label input[type="checkbox"] {
+  margin-right: 0.4rem;
+}
+
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: normal;
+}
+
+
+form button {
+  background-color: #b89cf6;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #a88ae9;
+}
+
+
+.box {
+  background-color: #efe6fc;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.employees {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.employees img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+footer {
+    
+  background-color: #d7c8f4;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.socialmedia a {
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.socialmedia img {
+    width: 25px;      
+    height: 25px;
+    object-fit: contain;
+    margin: 0 5px;   
+}

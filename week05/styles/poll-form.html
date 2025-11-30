@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <label>Full Name: <input type="text" name="fullname" required></label> <!--implicit label method-->
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+
+            <label for="favorite browser">What is your favorite browser?</label>
+            <select name="choice" id="choice">
+                <option value="1">Safari</option>
+                <option value="2">Edge</option>
+                <option value="3">Chrome</option>
+                <option value="1">Brave</option>
+            </select>
+
+            <label><input type="checkbox" id="pet" name="pet">Do you have a household pet?</label>
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Madrid,Tokyo"></textarea>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
