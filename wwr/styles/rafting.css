@@ -39,7 +39,8 @@
  main p {
    text-align: center;
  }
-/* --- CONTAINER GENERAL --- */
+
+ /* --- CONTAINER GENERAL --- */
 .contact-container {
     width: 100%;
     max-width: 1200px;
@@ -139,8 +140,6 @@
         min-height: 350px;
     }
 }
-
-
 
  .box {
    background-color: #efe6fc;
