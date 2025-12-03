@@ -51,6 +51,11 @@
     padding: 2rem;
 }
 
+iframe {
+    border: 0;
+}
+
+
 /* --- MAP SECTION --- */
 .map iframe {
     width: 100%;
