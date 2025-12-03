@@ -51,10 +51,12 @@
     padding: 2rem;
 }
 
-iframe {
-    border: 0;
-}
 
+iframe {
+    border: 0;           /* Remove border */
+    width: 100%;         /* Make iframe full width */
+    height: 450px;       /* Set a fixed height or adjust as needed */
+}
 
 /* --- MAP SECTION --- */
 .map iframe {
