@@ -140,6 +140,18 @@
    }
  }
 
+ .row {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+
+ .row label {
+   width: 80px;
+   font-weight: 600;
+ }
+
+
  .box {
    background-color: #efe6fc;
    padding: 2rem;
