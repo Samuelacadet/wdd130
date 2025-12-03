@@ -102,7 +102,7 @@
  .radio-option input[type="radio"] {
    transform: scale(1.2);
    appearance: radio;
-  -webkit-appearance: radio;
+   -webkit-appearance: radio;
  }
 
  /* CHECKBOX */
@@ -129,9 +129,6 @@
    cursor: pointer;
  }
 
- .contact-form button:hover {
-   background: #cfcfcf;
- }
 
  /* --- RESPONSIVE --- */
  @media (max-width: 900px) {
@@ -139,9 +136,6 @@
      grid-template-columns: 1fr;
    }
 
-   .map iframe {
-     min-height: 350px;
-   }
  }
 
  .row {
