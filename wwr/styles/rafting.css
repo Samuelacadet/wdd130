@@ -97,6 +97,13 @@
    font-size: 1rem;
  }
 
+ .radio-option {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   white-space: nowrap;
+ }
+
  .radio-option input {
    transform: scale(1.2);
  }
