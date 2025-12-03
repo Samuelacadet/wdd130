@@ -41,35 +41,35 @@
             </div>
             <form class="contact-form">
                 <div class="row">
-                <label for="username">Name</label>
-                <input type="text" id="username" name="username" placeholder="Your name">
-                 </div>
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="username" placeholder="Your name">
+                </div>
 
-                 <div class="row">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your email">
-                 </div>
+                <div class="row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </div>
 
-                <p class="purpose-title">Message Purpose</p>
+                <div class="row purpose-row">
+                    <label class="purpose-title">Message Purpose:</label>
 
-                <label class="radio-option">
-                    <input type="radio" name="message Purpose" id="messagepurpose1" value="General Inquiry" checked>
-                    General Inquiry
-                </label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="messagePurpose" value="General Inquiry" checked>
+                            General Inquiry
+                        </label>
 
-                <label class="radio-option">
-                    <input type="radio" name="message Purpose" id="messagepurpose2" value="Reservation Question"
-                        checked>
-                    Reservation Question
-                </label>
+                        <label class="radio-option">
+                            <input type="radio" name="messagePurpose" value="Reservation Question">
+                            Reservation Question
+                        </label>
 
-                <label class="radio-option">
-                    <input type="radio" name="message Purpose" id="messagepurpose3" value="Website Suggestion" checked>
-                    Website Suggestion
-                </label>
-
-                <label for="Message"><strong>Message</strong></label>
-                <textarea name="Message" id="Message" placeholder="Type here"></textarea>
+                        <label class="radio-option">
+                            <input type="radio" name="messagePurpose" value="Other">
+                            Other
+                        </label>
+                    </div>
+                </div>
 
                 <label class="newsletter">
                     <input type="checkbox" name="Subscribe" id="Subscribe">
