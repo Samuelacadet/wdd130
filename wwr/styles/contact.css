@@ -55,6 +55,9 @@
      margin: auto;
  }
 
+ iframe {
+  border: 0;
+}
 
  /* MAP */
  .map iframe {
