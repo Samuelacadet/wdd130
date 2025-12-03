@@ -55,16 +55,13 @@
      margin: auto;
  }
 
- iframe {
-  border: 0;
-}
+
 
  /* MAP */
  .map iframe {
      width: 100%;
      height: 500px;
      /* matches your wireframe height */
-     border: none;
  }
 
 
