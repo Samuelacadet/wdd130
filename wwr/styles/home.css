@@ -8,14 +8,13 @@
 header {
     display: grid;
     grid-template-columns: 150px 1fr;
-    align-items: center;
-    background-color: #d7c8f4;
+    background-color: grey;
     padding: 1rem 2rem;
 }
 
 
 header img {
-    width: 120px;
+    width: 60px;
     height: auto;
 }
 
@@ -38,3 +37,26 @@ main h1,
 main p {
     text-align: center;
 }
+
+.newsletter {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   font-size: 1rem;
+ }
+
+ .newsletter input {
+   transform: scale(1.2);
+ }
+
+ /* BUTTON */
+ .contact-form button {
+   width: 100%;
+   padding: 15px;
+   font-size: 1.1rem;
+   font-weight: 600;
+   background: #d9d9d9;
+   border: 2px solid #bfbfbf;
+   border-radius: 6px;
+   cursor: pointer;
+ }
