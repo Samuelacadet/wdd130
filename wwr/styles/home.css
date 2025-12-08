@@ -8,7 +8,7 @@
 header {
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: grey;
+    background-color: ;
     padding: 1rem 2rem;
 }
 
@@ -42,7 +42,8 @@ main p {
 .hero {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
     overflow: hidden;
 }
 
@@ -55,13 +56,13 @@ main p {
 .hero-title {
     position: absolute;
     /* pou li sou imaj la */
-    top: 20%;
+    top: 10%;
     /* ajiste wotè jan ou vle li parèt */
     left: 50%;
     /* mete li nan mitan lajè paj la */
     transform: translateX(-50%);
     /* santre li egzakteman */
-    color: white;
+    color: burlywood;
     /* pou li vizib sou imaj la */
     font-size: 3rem;
     text-align: center;
@@ -70,13 +71,15 @@ main p {
 
 .hero-subtitle {
     position: absolute;
-    top: 35%;             /* anba H1 la */
+    top: 20%;
+    /* anba H1 la */
     left: 50%;
     transform: translateX(-50%);
-    color: white;
+    color: burlywood;
     font-size: 1.2rem;
     text-align: center;
 }
+
 .contact-form {
     position: absolute;
     top: 50%;
