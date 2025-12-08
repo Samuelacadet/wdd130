@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 
-
+/* HEADER */
 header {
     position: fixed;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    padding: 1rem 2rem;
     top: 0;
     left: 0;
     width: 100%;
+    height: 80px;
+    /* wotè header */
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 0 2rem;
+    background: rgba(255, 255, 255, 0.95);
     z-index: 1000;
 }
-
 
 header img {
     width: 60px;
@@ -23,31 +26,24 @@ header img {
 }
 
 header nav {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: end;
-    align-items: center;
+    display: flex;
+    justify-content: flex-end;
     gap: 2rem;
-    background-color: transparent;
 }
 
 header nav a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--accent2-color);
+    color: #333;
 }
 
-main h1,
-main p {
-    text-align: center;
-}
-
-
+/* HERO */
 .hero {
     position: relative;
     width: 100%;
     height: 100vh;
     padding-top: 80px;
+    /* espas pou header fixed */
     overflow: hidden;
 }
 
@@ -57,24 +53,21 @@ main p {
     object-fit: cover;
 }
 
+/* TITLE & SUBTITLE */
 .hero-title {
     position: absolute;
-    /* pou li sou imaj la */
-    top: 8%;
-    /* ajiste wotè jan ou vle li parèt */
+    top: 10%;
     left: 50%;
-    /* mete li nan mitan lajè paj la */
     transform: translateX(-50%);
-    /* santre li egzakteman */
     color: burlywood;
-    /* pou li vizib sou imaj la */
     font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .hero-subtitle {
     position: absolute;
-    top: 16%;
-    /* anba H1 la */
+    top: 18%;
     left: 50%;
     transform: translateX(-50%);
     color: burlywood;
@@ -82,22 +75,19 @@ main p {
     text-align: center;
 }
 
+/* FORM sou bò dwat */
 .contact-form {
     position: absolute;
     top: 50%;
     right: 50px;
-    /* distans ak bò dwat ou ka chanje */
     transform: translateY(-50%);
-    /* mete li nan mitan vètikal */
     background: rgba(255, 255, 255, 0.85);
-    /* ti blan transparan */
     padding: 20px;
     border-radius: 10px;
     width: 300px;
 }
 
-
-.row {
+.contact-form .row {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
@@ -115,12 +105,11 @@ main p {
     cursor: pointer;
 }
 
-
+/* SECTION BOX */
 .box {
     background-color: white;
     padding: 2rem;
     text-align: center;
-    margin-top: 2rem;
 }
 
 .images {
@@ -138,27 +127,17 @@ main p {
     border-radius: 10px;
 }
 
-
+/* FOOTER */
 footer {
-
     background-color: gray;
     padding: 1.5rem;
-    align-items: center;
     display: flex;
-    margin-top: 2rem;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-
-.socialmedia a {
-    text-decoration: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.socialmedia img {
+.socialmedia a img {
     width: 25px;
     height: 25px;
-    object-fit: contain;
-    margin: 0 5px;
 }
