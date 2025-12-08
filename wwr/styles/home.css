@@ -60,7 +60,7 @@ main p {
 .hero-title {
     position: absolute;
     /* pou li sou imaj la */
-    top: 5%;
+    top: 8%;
     /* ajiste wotè jan ou vle li parèt */
     left: 50%;
     /* mete li nan mitan lajè paj la */
@@ -73,7 +73,7 @@ main p {
 
 .hero-subtitle {
     position: absolute;
-    top: 18%;
+    top: 16%;
     /* anba H1 la */
     left: 50%;
     transform: translateX(-50%);
