@@ -6,10 +6,14 @@
 
 
 header {
+    position: fixed;
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: ;
     padding: 1rem 2rem;
+    top: 0;
+    left: 0;
+    width: 100;
+    z-index: 1000;
 }
 
 
@@ -56,7 +60,7 @@ main p {
 .hero-title {
     position: absolute;
     /* pou li sou imaj la */
-    top: 10%;
+    top: 5%;
     /* ajiste wotè jan ou vle li parèt */
     left: 50%;
     /* mete li nan mitan lajè paj la */
@@ -71,7 +75,7 @@ main p {
 
 .hero-subtitle {
     position: absolute;
-    top: 20%;
+    top: 12%;
     /* anba H1 la */
     left: 50%;
     transform: translateX(-50%);
