@@ -52,6 +52,23 @@ main p {
     object-fit: cover;
 }
 
+.hero-title {
+    position: absolute;
+    /* pou li sou imaj la */
+    top: 20%;
+    /* ajiste wotè jan ou vle li parèt */
+    left: 50%;
+    /* mete li nan mitan lajè paj la */
+    transform: translateX(-50%);
+    /* santre li egzakteman */
+    color: white;
+    /* pou li vizib sou imaj la */
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 .contact-form {
     position: absolute;
     top: 50%;
@@ -65,8 +82,6 @@ main p {
     border-radius: 10px;
     width: 300px;
 }
-
-
 
 
 .row {
@@ -86,8 +101,6 @@ main p {
     font-size: 1.1rem;
     cursor: pointer;
 }
-
-
 
 
 .box {
