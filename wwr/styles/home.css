@@ -39,24 +39,46 @@ main p {
 }
 
 .newsletter {
-   display: flex;
-   align-items: center;
-   gap: 8px;
-   font-size: 1rem;
- }
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+}
 
- .newsletter input {
-   transform: scale(1.2);
- }
+.newsletter input {
+    transform: scale(1.2);
+}
 
- /* BUTTON */
- .contact-form button {
-   width: 100%;
-   padding: 15px;
-   font-size: 1.1rem;
-   font-weight: 600;
-   background: #d9d9d9;
-   border: 2px solid #bfbfbf;
-   border-radius: 6px;
-   cursor: pointer;
- }
+/* BUTTON */
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #d9d9d9;
+    border: 2px solid #bfbfbf;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.box {
+    background-color: #efe6fc;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
