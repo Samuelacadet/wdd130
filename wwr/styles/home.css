@@ -39,7 +39,7 @@ header nav {
 header nav a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 /* HERO */
@@ -58,24 +58,24 @@ header nav a {
 }
 
 /* TITLE & SUBTITLE */
-.hero-title {
+.hero h1 {
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    color: burlywood;
+    color: rgb(143, 110, 56);
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 5px black;
 }
 
-.hero-subtitle {
+.hero p {
     position: absolute;
     top: 18%;
     left: 50%;
     transform: translateX(-50%);
-    color: burlywood;
+    color: rgba(214, 194, 15, 0.438);
     font-size: 1.2rem;
     text-align: center;
     text-shadow: 2px 2px 5px black;
@@ -92,7 +92,17 @@ header nav a {
     box-sizing: border-box;
 }
 
+.hero .box p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
 
+.hero .box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 
 /* FORM sou bò dwat */
@@ -145,7 +155,7 @@ header nav a {
 
 /* FOOTER */
 footer {
-    background-color: gray;
+    background-color: rgb(225, 247, 238);
     padding: 1.5rem;
     display: flex;
     justify-content: space-between;
