@@ -57,53 +57,6 @@ header nav a {
     object-fit: cover;
 }
 
-/* TITLE & SUBTITLE */
-.hero h1 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgb(143, 110, 56);
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-}
-
-.hero p {
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgba(214, 194, 15, 0.438);
-    font-size: 1.2rem;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-}
-
-.hero .box {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #264653;
-    color: white;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.hero .box p {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.hero .box::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 
 /* FORM sou bò dwat */
 .contact-form {
@@ -166,12 +119,4 @@ footer {
 .socialmedia a img {
     width: 25px;
     height: 25px;
-}
-
-box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / .1);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000;
 }
