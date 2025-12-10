@@ -104,7 +104,7 @@ header nav a {
 
 /* SECTION BOX */
 .box {
-    background-color: white;
+    background-color: rgb(236, 233, 233);
     padding: 2rem;
     text-align: center;
 }
