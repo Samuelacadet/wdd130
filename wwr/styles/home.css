@@ -167,3 +167,11 @@ footer {
     width: 25px;
     height: 25px;
 }
+
+box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
