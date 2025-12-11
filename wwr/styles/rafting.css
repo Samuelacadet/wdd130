@@ -257,7 +257,7 @@
 
 .site2 .trip-card ul {
     padding-left: 20px;
-    margin: 0.6rem 0 1rem 0;
+    margin: 0.6rem;
 }
 
 .site2 .trip-card li {
@@ -266,7 +266,10 @@
 
 /* Image styling */
 .site2 .trip-card img {
-    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px
 }
 
 /* Buttons */
