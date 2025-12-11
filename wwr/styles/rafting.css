@@ -173,9 +173,35 @@
 /* ===================================================
    SITE 2 - TRIPS
    =================================================== */
-/* ============================
-   SITE 2 — TRIPS PAGE
-============================ */
+
+
+.site2 header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    background-color: #d7c8f4;
+    padding: 1rem 2rem;
+}
+
+.site2 header img {
+    width: 120px;
+    height: auto;
+}
+
+.site2 header nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.site2 header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--accent2-color);
+}
 
 /* Container general */
 .site2 {
@@ -299,13 +325,27 @@
     }
 }
 
-/* Footer fix */
 .site2 footer {
     background-color: #d7c8f4;
     padding: 1.5rem;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+
+.site2 .socialmedia a {
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.site2 .socialmedia img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 0 5px;
 }
 
 
