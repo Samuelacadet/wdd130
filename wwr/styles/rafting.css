@@ -412,13 +412,8 @@
 }
 
 
-.site3 h1 {
+.site3 h1 .site3 h2 {
     color: var(--primary-color);
-}
-
-
-.site3 h2 {
-    color: rgb(139, 24, 24);
 }
 
 
