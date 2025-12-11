@@ -7,7 +7,7 @@
 }
 
 
-header {
+.site2 header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
@@ -15,12 +15,12 @@ header {
     padding: 1rem 2rem;
 }
 
-header img {
+.site2 header img {
     width: 120px;
     height: auto;
 }
 
-header nav {
+.site2 header nav {
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: end;
@@ -29,7 +29,7 @@ header nav {
     background-color: transparent;
 }
 
-header nav a {
+.site2 header nav a {
     text-decoration: none;
     font-weight: bold;
     color: var(--accent2-color);
@@ -39,7 +39,7 @@ header nav a {
 
 
 
-footer {
+.site2 footer {
     background-color: #d7c8f4;
     padding: 1.5rem;
     align-items: center;
@@ -49,13 +49,13 @@ footer {
 }
 
 
-.socialmedia a {
+.site2 .socialmedia a {
     text-decoration: none;
     display: flex;
     gap: 1rem;
 }
 
-.socialmedia img {
+.site2 .socialmedia img {
     width: 25px;
     height: 25px;
     object-fit: contain;

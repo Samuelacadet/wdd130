@@ -1,6 +1,6 @@
 /* About.css site 3*/
 
-:root {
+.site3 {
     --primary-color: #055a05;
     /* forest green */
     --accent1-color: #264653;
@@ -10,8 +10,13 @@
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-header {
+.site3 header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
@@ -23,59 +28,46 @@ header {
 
 
 
-header img {
+.site3 header img {
     width: 120px;
     height: auto;
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.site3 header nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
+    gap: 2rem;
+    background-color: transparent;
+    /* remove background */
+
 }
 
+.site3 header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
 
-body {
+}
+
+.site3 {
     color: var(--accent1-color);
 }
 
 
-footer {
-    background: var(--accent1-color);
-    color: white;
-    padding: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-main {
+.site3 main {
     width: 100%;
 }
 
 
-h1,
-h2 {
+.site3 h1,
+.site3 h2 {
     color: var(--primary-color);
 }
 
 
-.socialmedia a {
-    text-decoration: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.socialmedia img {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
-    margin: 0 5px;
-}
-
-.hero {
+.site3 .hero {
     position: relative;
     width: 100%;
     height: 450px;
@@ -83,24 +75,24 @@ h2 {
 }
 
 
-.hero img {
+.site3 .hero img {
 
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.hero article img {
+.site3 .hero article img {
     float: right;
 
 }
 
-.hero article {
+.site3 .hero article {
     position: absolute;
 }
 
 
-.hero .box {
+.site3 .hero .box {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -112,7 +104,7 @@ h2 {
 }
 
 /* Small image inside the box (right) */
-.hero .box img {
+.site3 .hero .box img {
     width: 150px;
     height: auto;
     float: right;
@@ -123,20 +115,20 @@ h2 {
 }
 
 /* Text inside the box */
-.hero .box p {
+.site3 .hero .box p {
     margin: 0;
     font-size: 1rem;
     line-height: 1.6;
 }
 
 /* Clear float to stabilize the box */
-.hero .box::after {
+.site3 .hero .box::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.hero h1 {
+.site3 .hero h1 {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -149,7 +141,7 @@ h2 {
 }
 
 
-h1 {
+.site3 h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -162,29 +154,12 @@ h1 {
 }
 
 
-p {
+.site3 p {
     margin: 1rem;
 }
 
-header nav {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: end;
-    gap: 2rem;
-    background-color: transparent;
-    /* remove background */
 
-}
-
-header nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-
-}
-
-
-.box {
+.site3 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / .1);
     padding: 1rem;
@@ -192,13 +167,13 @@ header nav a {
     color: #000;
 }
 
-.box::after {
+.site3 .box::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.box h2 {
+.site3 .box h2 {
     text-align: center;
     /* centers the title */
     margin: 0 0 1rem 0;
@@ -206,7 +181,7 @@ header nav a {
 }
 
 
-.history {
+.site3 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
@@ -214,13 +189,13 @@ header nav a {
     padding: 2rem;
 }
 
-.history img {
+.site3 .history img {
     width: 100%;
     border-radius: 10px;
 }
 
 
-.gallery {
+.site3 .gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
@@ -230,13 +205,13 @@ header nav a {
     text-align: center;
 }
 
-.gallery img {
+.site3 .gallery img {
     width: 100%;
     border-radius: 5px;
 }
 
 
-.adventures {
+.site3 .adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     /* 5 equal columns */
@@ -245,18 +220,43 @@ header nav a {
     text-align: center;
 }
 
-.adventures figure {
+.site3 .adventures figure {
     margin: 0;
 }
 
-.adventures img {
+.site3 .adventures img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.adventures figcaption {
+.site3 .adventures figcaption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
     color: var(--accent1-color);
+}
+
+
+.site3 .socialmedia a {
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.site3 .socialmedia img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 0 5px;
+}
+
+
+.site3 footer {
+    background: var(--accent1-color);
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
