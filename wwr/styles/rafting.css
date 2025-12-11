@@ -412,9 +412,13 @@
 }
 
 
-.site3 h1,
-.site3 h2 {
+.site3 h1 {
     color: var(--primary-color);
+}
+
+
+.site3 h2 {
+    color: white;
 }
 
 
