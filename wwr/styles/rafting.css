@@ -7,7 +7,7 @@
 }
 
 
-header {
+.site4 header {
   display: grid;
   grid-template-columns: 150px 1fr;
   align-items: center;
@@ -15,12 +15,12 @@ header {
   padding: 1rem 2rem;
 }
 
-header img {
+.site4 header img {
   width: 120px;
   height: auto;
 }
 
-header nav {
+.site4 header nav {
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-content: end;
@@ -29,20 +29,20 @@ header nav {
   background-color: transparent;
 }
 
-header nav a {
+.site4 header nav a {
   text-decoration: none;
   font-weight: bold;
   color: var(--accent2-color);
 }
 
 
-main h1,
-main p {
+.site4 main h1,
+.site4 main p {
   text-align: center;
 }
 
 /* --- CONTAINER GENERAL --- */
-.contact-container {
+.site4 .contact-container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -54,7 +54,7 @@ main p {
 
 
 /* --- MAP SECTION --- */
-.map iframe {
+.site4 .map iframe {
   width: 100%;
   height: 100%;
   min-height: 500px;
@@ -62,23 +62,23 @@ main p {
 }
 
 /* --- FORM SECTION --- */
-.contact-form {
+.site4 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 /* LABELS */
-.contact-form label,
-.purpose-title {
+.site4 .contact-form label,
+.site4 .purpose-title {
   font-size: 1rem;
   font-weight: 600;
 }
 
 /* INPUTS + TEXTAREA */
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
+.site4 .contact-form input[type="text"],
+.site4 .contact-form input[type="email"],
+.site4 .contact-form textarea {
   width: 100%;
   padding: 12px 15px;
   font-size: 1rem;
@@ -86,13 +86,13 @@ main p {
   border-radius: 6px;
 }
 
-.contact-form textarea {
+.site4 .contact-form textarea {
   height: 140px;
   resize: vertical;
 }
 
 /* RADIO OPTIONS */
-.radio-option {
+.site4 .radio-option {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -101,26 +101,26 @@ main p {
 }
 
 
-.radio-option input[type="radio"] {
+.site4 .radio-option input[type="radio"] {
   transform: scale(1.2);
   appearance: radio;
   -webkit-appearance: radio;
 }
 
 /* CHECKBOX */
-.newsletter {
+.site4 .newsletter {
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 1rem;
 }
 
-.newsletter input {
+.site4 .newsletter input {
   transform: scale(1.2);
 }
 
 /* BUTTON */
-.contact-form button {
+.site4 .contact-form button {
   width: 100%;
   padding: 15px;
   font-size: 1.1rem;
@@ -134,39 +134,39 @@ main p {
 
 /* --- RESPONSIVE --- */
 @media (max-width: 900px) {
-  .contact-container {
+  .site4 .contact-container {
     grid-template-columns: 1fr;
   }
 
 }
 
-.row {
+.site4 .row {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.row label {
+.site4 .row label {
   width: 80px;
   font-weight: 600;
 }
 
 
-.box {
+.site4 .box {
   background-color: #efe6fc;
   padding: 2rem;
   text-align: center;
   margin-top: 2rem;
 }
 
-.employees {
+.site4 .employees {
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin-top: 1rem;
 }
 
-.employees img {
+.site4 .employees img {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -174,7 +174,7 @@ main p {
 }
 
 
-footer {
+.site4 footer {
   background-color: #d7c8f4;
   padding: 1.5rem;
   align-items: center;
@@ -184,13 +184,13 @@ footer {
 }
 
 
-.socialmedia a {
+.site4 .socialmedia a {
   text-decoration: none;
   display: flex;
   gap: 1rem;
 }
 
-.socialmedia img {
+.site4 .socialmedia img {
   width: 25px;
   height: 25px;
   object-fit: contain;
