@@ -193,6 +193,20 @@
     height: auto;
 }
 
+.site2 header nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.site2 header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--accent2-color);
+}
 
 
 /* Trips Header */
